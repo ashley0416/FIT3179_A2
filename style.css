@@ -7,3 +7,20 @@ p{
     font-family: 'Hind', sans-serif;
     text-align: center;
 }
+
+#map_chart {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+#bubble_plot {
+
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-left: 650px;
+    text-align: left;
+    
+}
+
