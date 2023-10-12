@@ -14,25 +14,19 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/ashley0416/FIT3179_AK/main/cleaned_dataset2.csv"
+          "url": "https://raw.githubusercontent.com/ashley0416/FIT3179_A2/main/dataset1.csv"
         },
-        "mark": {"type": "circle", "tooltip": {"content": "data"}},
         "encoding": {
-          "longitude": {"field": "longitude", "type": "quantitative"},
-          "latitude": {"field": "latitude", "type": "quantitative"},
-          "size": {
-            "field": "globalrank",
-            "type": "quantitative",
-            "title": "Global Ranking",
-            "scale": {"domain": [1, 20]}
-          },
-          "color": {
-            "field": "costofliving",
-            "type": "quantitative",
-            "title": "Cost of Living",
-            "scale": {"scheme": "reds"}
+            "color": {
+              "field": "Percantage",
+              "type": "quantitative",
+              "scale": {"scheme": "redblue"},
+              "legend": {
+                  "title": null,
+                  "format": "%"
+              }
+            }
           }
-        }
       }
     ]
 }
