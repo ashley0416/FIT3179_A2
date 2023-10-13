@@ -6,13 +6,15 @@ h1{
 p{
     font-family: 'Hind', sans-serif;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 div {
-    padding-top: 80px;
+    padding-top: 10px;
     padding-right: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     padding-left: 200px;
+    text-align: left;
 }
 
 

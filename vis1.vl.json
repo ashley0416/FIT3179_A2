@@ -16,7 +16,7 @@
         "data": {
           "url": "https://raw.githubusercontent.com/ashley0416/FIT3179_AK/main/cleaned_dataset2.csv"
         },
-        "mark": {"type": "circle", "tooltip": {"content": "data"}},
+        "mark": {"type": "circle"},
         "encoding": {
           "longitude": {"field": "longitude", "type": "quantitative"},
           "latitude": {"field": "latitude", "type": "quantitative"},
@@ -31,7 +31,12 @@
             "type": "quantitative",
             "title": "Cost of Living",
             "scale": {"scheme": "reds"}
-          }
+          },
+          "tooltip": [
+            {"field": "countries", "type": "nominal"},
+            {"field": "costofliving", "type": "quantitative", "format": ","},
+            {"field": "globalrank", "type": "quantitative", "format": ","}
+          ]
         }
       }
     ]
