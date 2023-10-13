@@ -1,0 +1,16 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 400,
+    "title": "Life Expectancy between developed and developing countries",
+
+  "data": { "url": "https://raw.githubusercontent.com/ashley0416/FIT3179_A2/main/Life%20Expectancy%20Data.csv"},
+  "mark":{
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {"field": "Country","type": "nominal"},
+    "y": {"field": "Life expectancy ","type": "quantitative"},
+    "color": {"field":"Country","type": "nominal"}
+  }
+}
