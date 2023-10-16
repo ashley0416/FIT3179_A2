@@ -4,7 +4,7 @@
     "height": 400,
     "title": "COVID-19 Statistics for each country",
     "data": {
-      "url": "https://raw.githubusercontent.com/ashley0416/FIT3179_W10/main/country_wise_latest.csv"
+      "url": "https://raw.githubusercontent.com/ashley0416/FIT3179_A2/main/country_wise_latest.csv"
     },
     "transform": [
       {"filter": "datum.Deaths>0"},
@@ -70,7 +70,7 @@
           },
           "color": {
             "field": "WHO_Region",
-            "type": "nominal",
+            "title": "Region/Continent",
             "scale": {
               "domain": [
                 "Africa",
@@ -96,7 +96,7 @@
             {"field": "Confirmed", "type": "quantitative", "format": ","},
             {"field": "Deaths", "type": "quantitative", "format": ","},
             {"field": "Active", "type": "quantitative", "format": ","},
-            {"field": "WHO_Region", "type": "nominal"}
+            {"field": "WHO_Region", "type": "nominal", "title": "Region/Continent"}
           ]
         }
       },
@@ -124,7 +124,7 @@
             {"field": "Confirmed", "type": "quantitative", "format": ","},
             {"field": "Deaths", "type": "quantitative", "format": ","},
             {"field": "Active", "type": "quantitative", "format": ","},
-            {"field": "WHO_Region", "type": "nominal"}
+            {"field": "WHO_Region", "type": "nominal", "title": "Region/Continent"}
           ]
         }
       }
