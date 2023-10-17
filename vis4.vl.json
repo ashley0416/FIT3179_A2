@@ -1,0 +1,20 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/ashley0416/FIT3179_A2/main/dataset4.csv"},
+    "mark": "line",
+    "transform": [{"filter": "datum.Year == 1990 || datum.Year == 2019"}],
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "scale": {"padding": 10}
+      },
+      "y": {
+        "aggregate": "mean",
+        "field": "DALYs",
+        "type": "quantitative"
+      },
+      "color": {"field": "Entity", "type": "nominal"}
+    }
+  }
+  
