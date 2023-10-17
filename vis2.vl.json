@@ -95,7 +95,7 @@
             {"field": "Country/Region", "type": "nominal"},
             {"field": "Confirmed", "type": "quantitative", "format": ","},
             {"field": "Deaths", "type": "quantitative", "format": ","},
-            {"field": "Active", "type": "quantitative", "format": ","},
+            {"field": "Recovered", "type": "quantitative", "format": ","},
             {"field": "WHO_Region", "type": "nominal", "title": "Region/Continent"}
           ]
         }
@@ -123,7 +123,7 @@
             {"field": "Country/Region", "type": "nominal"},
             {"field": "Confirmed", "type": "quantitative", "format": ","},
             {"field": "Deaths", "type": "quantitative", "format": ","},
-            {"field": "Active", "type": "quantitative", "format": ","},
+            {"field": "Recovered", "type": "quantitative", "format": ","},
             {"field": "WHO_Region", "type": "nominal", "title": "Region/Continent"}
           ]
         }

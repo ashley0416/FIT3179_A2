@@ -1,7 +1,0 @@
-Country,Year,Status,Life expectancy ,Adult Mortality,infant deaths,Alcohol,percentage expenditure,Hepatitis B,Measles , BMI ,under-five deaths ,Polio,Total expenditure,Diphtheria , HIV/AIDS,GDP,Population, thinness  1-19 years, thinness 5-9 years,Income composition of resources,Schooling
-Australia,2015,Developed,82.8,59,1,,0,93,74,66.6,1,93,,93,0.1,56554.3876,23789338,0.6,0.6,0.937,20.4
-Bangladesh,2015,Developing,71.8,129,92,,0,97,240,18.3,113,97,,97,0.1,121.15812,1612886,17.9,18.3,0.575,10.2
-India,2015,Developing,68.3,181,910,,0,87,90387,18.7,1100,86,,87,0.2,1613.18878,1395398,26.7,27.3,0.615,11.6
-Italy,2015,Developed,82.7,56,1,,0,93,159,63.6,2,93,,93,0.1,349.14755,673582,0.6,0.6,0.881,16.3
-Japan,2015,Developed,83.7,55,2,,0,,35,29,3,99,,96,0.1,34474.13736,127141,2.1,1.8,0.902,15.3
-Malaysia,2015,Developing,75,123,4,,0,99,1318,4.6,4,99,,99,0.1,9643.644683,3723155,7.5,7.3,0.787,13.1
