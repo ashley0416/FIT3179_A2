@@ -21,7 +21,11 @@
         "scale": {"domain": [0, 10]},
         "title": "Deaths Rate"
       },
-      "color": {"field": "Entity", "type": "nominal"}
+      "color": {"field": "Entity", "type": "nominal"},
+      "tooltip": [
+        {"field": "Year", "type": "ordinal", "title": "Year"},
+        {"field": "DALYs", "type": "quantitative", "title": "Death Rate"}
+      ]
     }
   }
   
